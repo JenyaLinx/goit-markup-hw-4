@@ -368,9 +368,11 @@ padding-bottom: 120px;
     transform: translateY(100%);
 
 }
-.portfolio-text-firstfoto:hover {
+/* .portfolio-text-firstfoto:hover {
     transform: translateY(0%);
-}
+} */
+.portfolio-list-item:hover {
+    transform: translateY(0%); }
 
 .social-media {
     display: flex;
