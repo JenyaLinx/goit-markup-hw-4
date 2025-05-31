@@ -73,15 +73,16 @@ address {
 .header-div {
     display: flex;
         align-items: center;
-        
+        box-shadow: 0px 2px 1px rgba(46, 47, 66, 0.08);
 }
 .header-maine {
     border-bottom: 1px solid #e7e9fc;
-    box-shadow: 0px 2px 1px rgba(46, 47, 66, 0.08);
+    
     position: relative;
         color: #404bbf;
     
 }
+
 .content::after {
     content: '';
     width: 100%
@@ -103,6 +104,11 @@ address {
         padding: 24px 0 24px 0;
         display: block;
         transition: color 250ms cubic-bezier(0.4, 0, 0.2, 1);
+}
+.hero-text:first-child {
+    position: relative;
+    color: #404bbf;
+    
 }
 
 .hero-text:hover {
@@ -133,6 +139,7 @@ address {
 .first-section {
     
     background-color: #2e2f42;
+    margin: 0 auto;
         color: #FFFFFF;
         font-size: 56px;
         line-height: 1.07;
@@ -178,9 +185,12 @@ address {
         border: none;
         border-radius: 4px;
         margin: 0 auto;
-        transition:background-color 250ms cubic-bezier(0.4, 0, 0.2, 1);
+        
         }
-
+        button {
+            transition: background-color 250ms cubic-bezier(0.4, 0, 0.2, 1);
+        } 
+              
 .hero-button:hover {
     background-color: #404BBF ;
     
