@@ -83,8 +83,14 @@ address {
     
 }
 header {
-    box-shadow: 0px 2px 1px rgba(46, 47, 66, 0.08);
+    
 }
+.header-maine {
+    box-shadow:
+        0px 2px 1px rgba(46, 47, 66, 0.08),
+        0px 1px 1px rgba(46, 47, 66, 0.16),
+        0px 1px 6px rgba(46, 47, 66, 0.08); 
+    }
 
 .content::after {
     content: '';
@@ -200,10 +206,11 @@ header {
         border: none;
         border-radius: 4px;
         margin: 0 auto;
-        
+        margin-top: 48px;
+        transition: background-color 250ms cubic-bezier(0.4, 0, 0.2, 1);
         }
 .button-header {
-    transition: background-color 250ms cubic-bezier(0.4, 0, 0.2, 1);
+    
         } 
               
 .hero-button:hover {
@@ -284,9 +291,9 @@ padding-bottom: 120px;
 }
 /* 3 SECTION */
 .first-element {
-    box-shadow:0px 2px 1px rgba(46, 47, 66, 0.08);
+    box-shadow:0px 1px 6px rgba(46, 47, 66, 0.08), 0px 1px 1px rgba(46, 47, 66, 0.16), 0px 2px 1px rgba(46, 47, 66, 0.08);
+    }
     
-}
 .our-team-section {
     background-color: #F4F4FD;
     padding-top: 120px;
@@ -339,7 +346,7 @@ padding-bottom: 120px;
 }
 .portfolio-style:hover {
     transform: translateY(0%);
-    box-shadow:0px 1px 6px rgba(46, 47, 66, 0.08);
+    box-shadow: 0px 1px 6px rgba(46, 47, 66, 0.08), 0px 1px 1px rgba(46, 47, 66, 0.16), 0px 2px 1px rgba(46, 47, 66, 0.08);
 }
 .portfolio-list-firstfoto {
     position: relative;
@@ -367,10 +374,12 @@ padding-bottom: 120px;
     gap: 24px;
     justify-content: center;
 }
+
+
 .social-media-link {
     width: 40px;
     height: 40px;
-    transition:background-color 250ms cubic-bezier(0.4, 0, 0.2, 1);
+    
 }
 .social-media-icon  {
     fill: #f4f4fd;
@@ -383,6 +392,9 @@ padding-bottom: 120px;
     justify-content: center;
     display: flex;
     align-items: center;
+}
+.social-media .social-media-link:first-child .social-media-foto {
+    transition: background-color 250ms cubic-bezier(0.4, 0, 0.2, 1);
 }
 .social-media-foto:hover {
     background-color: #404bbf;
@@ -489,3 +501,5 @@ padding-top: 120px;
         display: inline-block;
         margin-bottom: 16px;
 }
+.media-item .media-list:first-child .media-list-link {
+    transition: background-color 250ms cubic-bezier(0.4, 0, 0.2, 1); }
