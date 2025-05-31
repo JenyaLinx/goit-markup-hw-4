@@ -161,12 +161,7 @@ header {
     
     background-color: #2e2f42;
     margin: 0 auto;
-        color: #FFFFFF;
-        font-size: 56px;
-        line-height: 1.07;
-        text-align: center;
-        letter-spacing: 0.02em;
-        padding: 188px 0;
+        
         background-image: linear-gradient(rgba(46, 47, 66, 0.7), rgba(46, 47, 66, 0.7)), url(../images/peopleoffice.jpg);
         max-width: 1440px;
         background-repeat: no-repeat;
@@ -189,6 +184,7 @@ header {
         max-width: 496px;
         margin: 0 auto;
         margin-bottom: 48px;
+        
     
 
 }
@@ -213,14 +209,11 @@ header {
         }
 
               
-.hero-button:hover {
+.hero-button:hover,.hero-button:focus {
     background-color: #404BBF ;
     
 }
-.hero-button:focus {
-    background-color: #404BBF;
-    
-}
+
 .our-strength {
     font-weight: 500;
         font-size: 20px;
