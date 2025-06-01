@@ -444,7 +444,12 @@ padding-top: 120px;
 }
 .container-section {
     margin-right: 120px;
+  
 
+}
+.footer-section-div {
+    display: flex;
+    align-items: baseline;
 }
 .media-footer {
     color: #FFFFFF;
