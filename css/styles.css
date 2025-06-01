@@ -170,11 +170,7 @@ header {
         padding-top: 188px;
         padding-bottom: 188px;
 }
-/* .people-photo {
-    max-width: 1440px;
-    height: 600px;
- 
-} */
+
 .hero-main {
         font-size: 56px;
         line-height: 1.07;
@@ -184,12 +180,10 @@ header {
         max-width: 496px;
         margin: 0 auto;
         margin-bottom: 48px;
-        
-    
 
 }
 .hero-button {
-        background: #4d5ae5;
+        background-color: #4d5ae5;
         font-family: "Roboto", sans-serif;
         font-weight: 500;
         font-size: 16px;
@@ -446,8 +440,7 @@ padding-top: 120px;
     padding-left: 15px;
     padding-right: 15px;
     margin: 0 auto ;
-    display: flex;
-    align-items: baseline;
+
 }
 .container-section {
     margin-right: 120px;
