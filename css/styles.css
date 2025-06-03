@@ -458,7 +458,8 @@ header {}
     color: #434455;
     background-color: #FFFFFF;
     gap: 24px;
-    padding-bottom: 8px;
+    /* padding-bottom: 8px; */
+    margin-bottom: 8px;
 
 }
 
